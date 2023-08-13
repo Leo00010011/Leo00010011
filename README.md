@@ -1,5 +1,13 @@
 ### Hi there 👋
 
+Hi my name is Leonardo , I’m a senior at University of Havana studying Computer Science  
+
+- I’ve experience working with Python, C# and C 
+
+- I'm currently working in my thesis degree project about an automated system  to measure Diabetic Foot Ulcers with intel realsense cameras  
+
+- I'm  eager  to learn and gain experience in Computer Vision and 3D Reconstruction
+
 <!--
 **Leo00010011/Leo00010011** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
