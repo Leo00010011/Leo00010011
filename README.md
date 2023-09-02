@@ -15,7 +15,7 @@ Hi my name is Leonardo , I’m a senior at University of Havana studying Compute
       </summary>
       <details style="margin-left: 40px">
             <summary>
-                  <a href="asdas">Shell: </a>Este es un proyecto de la asignatura <b>Sistemas Operativos</b> donde tuvimos que implementar un <b>Shell</b> para <b>Linux</b> bastante completo usando <b>C</b>.
+                  <a href="asdas">Shell: </a>Este es un proyecto de la asignatura <b>Sistemas Operativos</b> donde tuvimos que implementar un <b>Shell</b> para <b>Linux</b>, bastante completo, usando <b>C</b>.
             </summary>
                   <hr>
                   <p style="margin-left: 40px">
@@ -44,7 +44,7 @@ Hi my name is Leonardo , I’m a senior at University of Havana studying Compute
             <summary>
                   <a href="https://github.com/tonycp/IFSL">IFSL:</a>Este es el proyecto correspondiente a la asignatura
                   de <b>Inteligencia Artificial</b> donde se nos pidió idear un proyecto en el que utilizaramos
-                  conocimientos de <b>Inteligencia Artificial Clásica</b>
+                  conocimientos de <b>Inteligencia Artificial Clásica</b> y desarrollar una Demo.
             </summary>
                   <hr>
                   <p style="margin-left: 40px">
