@@ -5,7 +5,7 @@ Hi my name is Leonardo , I’m a senior at University of Havana studying Compute
 - I’ve experience working with Python, C# and C
 
 - I'm currently working in my thesis degree project about an automated system to measure Diabetic Foot Ulcers with intel
-realsense cameras
+  realsense cameras
 
 - I'm eager to learn and gain experience in Computer Vision and 3D Reconstruction
 
@@ -15,7 +15,7 @@ realsense cameras
       </summary>
       <details style="margin-left: 40px">
             <summary>
-                  <a href="asdas">Shell: </a>infoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfo
+                  <a href="asdas">Shell: </a>Este es un proyecto de la asignatura <b>Sistemas Operativos</b> donde tuvimos que implementar un <b>Shell</b> para <b>Linux</b> bastante completo usando <b>C</b>.
             </summary>
                   <hr>
                   <p style="margin-left: 40px">
@@ -24,7 +24,7 @@ realsense cameras
       </details>
       <details style="margin-left: 40px">
             <summary>
-                  <a href="asdas">Web Server: </a>infoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfo
+                  <a href="asdas">Web Server:</a> Este es el proyecto de correspindiente a la asignatura de <b>Sistemas Operativos</b> en el que tuvimos que diseñar e implementar un <b>Servidor FTP</b> solo usando <b>C</b> y funcionalidades del <b>kernel de linux</b>.
             </summary>
                   <hr>
                   <p style="margin-left: 40px">
@@ -33,7 +33,7 @@ realsense cameras
       </details>
       <details style="margin-left: 40px">
             <summary>
-                  <a href="asdas">Skyrim: </a> este fué el proyecto correspondiente a la asignatura de **Ingeniería de Software** en el que tuvimos que diseñar una **base de datos** y una **pagina web** que la utilice.
+                  <a href="Por Subir">Skyrim: </a> este es el proyecto correspondiente a la asignatura de <b>Ingeniería de Software</b> en el que tuvimos que diseñar una <b>base de datos</b> y una <b>pagina web</b> que la utilice.
             </summary>
                   <hr>
                   <p style="margin-left: 40px">
@@ -64,6 +64,9 @@ realsense cameras
                         código del proyecto <b>IFSL</b> que acababamos de terminar.
                   </p>
                   <p style="margin-left: 40px">
+                        Para permitirle al usuario crear formaciones con el nivel de complejidad que desée, hicimos que la declaración de formaciones tuviera la sintaxis de un método, en el que pueda pasar parámetros para que el usuario pueda tener mayor reusabilidad del mismo código. Además dentro de la declaración de la formación se pueden usar <b>ciclos while</b>, y condicionales, además de que también puede declarar variables del tipo <b>int</b>, <b>bool</b>, <b>array</b>, y <b>group</b> que es un tipo especial utilizado para referirse a conjuntos de agentes.
+                  </p>
+                  <p style="margin-left: 40px">
                         Crear nuestro propio lenguaje nos permitió añadir características específicas para el trabajo con
                         <b>groups</b>, creando dinámicas más intuitivas y expresivas con los conjuntos de agentes. Dentro de
                         la definición de una formación el usuario se puede referir a la variable especial <b>G</b>, la cual es
@@ -81,7 +84,7 @@ realsense cameras
                         checkeo semántico y un checkeo para saber si las variables o funciones que se usan están definidas, y
                         en el caso de las variables se tiene en cuenta el scope donde se llaman. Luego para facilitar la
                         generación de código en Python se realizaron unas transformaciónes en el <b>AST</b> como, renombrar
-                        algunas funciones, declarar otras y reemplazar instrucciones como all_of y por otras más cercanas a
+                        algunas funciones, declarar otras y reemplazar instrucciones como all_of por otras más cercanas a
                         python. El código en python se generó recursivamente usando también el <b>Patrón Visitor</b> y un
                         sistema de plantillas que implementamos usando el módulo de <b>expresiones regulares</b> de python.
                   </p>
@@ -126,7 +129,7 @@ realsense cameras
             <p style="margin-left: 40px">            
                   Ya con estas herramientas pude enfocarme en el desarrollo de la <b>Distributed Hash  Table</b> que iba a encargarse de organizar en que servidor se debían almacenar que datos. Para su diseño me basé en la idea  de <b>Chord</b>, pero realicé algunas modificaciones. Su función en el sistema era que el EntryServer le preguntaba a cualquiera de los servidores que estuviera participando en el almacenamiento distribuido por las <b>direcciones IP</b> de los servidores que debían responder por el dato que quería almacenar o consultar. También en el momento de incorporar una replica o un nuevo nodo en el almacenamiento distribuido la <b>DHT</b> jugaba un papel fundamental, pues en el caso de incorporar una replica, la esta se encargaba de encontrar las <b>direcciones IP</b> de las otras <b>réplicas</b> que contenían los datos de los nodos que querían replicar y en el caso de incorporar un nuevo nodo la <b>DHT</b> resolvía las direcciones de las replicas del nodo que iba a ser su sucesor (Ver <a href = "https://github.com/Leo00010011/Distributed-Twitter/   #chord-dht">Chord DHT</a>)
             </p>
-            <p style="margin-left: 40px">Para poder probar todo de forma local utilizamos <b>containers</b> de <b>Docker</b> y fué mi responsabilidad estudiarme esta herramienta, crear la <b>imagen</b> y un pequeño script para permitir a mis compañeros
+            <p style="margin-left: 40px">Para poder probar todo de forma local utilizamos <b>containers</b> de <b>Docker</b> y es mi responsabilidad estudiarme esta herramienta, crear la <b>imagen</b> y un pequeño script para permitir a mis compañeros
             utilizarlo de manera sencilla.
             </p>
       </details>
