@@ -33,7 +33,17 @@ Hi my name is Leonardo , I’m a senior at University of Havana studying Compute
       </details>
       <details style="margin-left: 40px">
             <summary>
-                  <a href="Por Subir">Skyrim: </a> este es el proyecto correspondiente a la asignatura de <b>Ingeniería de Software</b> en el que tuvimos que diseñar una <b>base de datos</b> y una <b>pagina web</b> que la utilice.
+                  <a href="Por Subir">Skyrim: </a> este es el proyecto correspondiente a la asignatura de <b>Ingeniería de Software</b> en el que tuvimos que diseñar una <b>base de datos</b> y una <b>pagina web</b> con la que se puedan recolectar datos de batallas ficticias en el juego y mostrar de manera atractiva varios insights a partir de los datos.
+            </summary>
+                  <hr>
+                  <p style="margin-left: 40px">
+                        🚧Work in progress ...🚧
+                  </p>
+      </details>
+      <details style="margin-left: 40px">
+            <summary>
+                  <a href="https://github.com/Leo00010011/3Models-SRI">3Models-SRI:</a>Este es el proyecto correspondiente a la asignatura
+                  de <b>Sistemas de Recuperación de Información</b> donde tuvimos que estudiar e implementar dos <b>modelos de recuperación de información</b> que permitieran recomendar documentos de una colección a partir de una <b>Query</b>
             </summary>
                   <hr>
                   <p style="margin-left: 40px">
@@ -43,8 +53,7 @@ Hi my name is Leonardo , I’m a senior at University of Havana studying Compute
       <details style="margin-left: 40px">
             <summary>
                   <a href="https://github.com/tonycp/IFSL">IFSL:</a>Este es el proyecto correspondiente a la asignatura
-                  de <b>Inteligencia Artificial</b> donde se nos pidió idear un proyecto en el que utilizaramos
-                  conocimientos de <b>Inteligencia Artificial Clásica</b> y desarrollar una Demo.
+                  de <b>Inteligencia Artificial</b> utilizamos <b>Inteligencia Artificial Clásica</b> para desarrollar un simulador de batallas en el que un conjunto de <b>agentes</b> trabajaban en <b>cooperativo</b> para derrotar un enemigo.
             </summary>
                   <hr>
                   <p style="margin-left: 40px">
@@ -54,7 +63,7 @@ Hi my name is Leonardo , I’m a senior at University of Havana studying Compute
       <details style="margin-left: 40px">
             <summary>
                   <a href="https://github.com/Alejandra1113/FormationDSL/">FormationDSL: </a> Este es el proyecto
-                  correspondiente a la asignatura de <b>Compilación</b> en el que se nos pidió diseñar un <b>Domain Specific Language(DSL)</b> y un <b>transpilador</b> hacia al lenguaje de nuestra preferencia.
+                  correspondiente a la asignatura de <b>Compilación</b> en el que se diseñamos un <b>Domain Specific Language(DSL)</b> e implementamos un <b>transpilador</b> de ese lenguaje a <b>Python</b>.
             </summary>
                   <hr>
                   <p style="margin-left: 40px">
