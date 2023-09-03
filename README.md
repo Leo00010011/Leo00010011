@@ -85,7 +85,7 @@ Hi my name is Leonardo , I’m a senior at University of Havana studying Compute
                         fueran ordenes naturales como "down of" o "all_of G at down of prev".
                   </p>
                   <p style="margin-left: 40px">
-                        (Las partes)(Explicacion de tokenicer, parser)Para poder compilar el lenguaje tuvimos que definir una
+                        Para poder compilar el lenguaje tuvimos que definir una
                         <b>gramática</b>, la cual como era de esperar por su complejidad no pudo ser <b>LL(1)</b>.
                         Implementamos un tokenizer con <b>expresiones regulares</b>, un parser <b>LR(1)</b> y aprovechamos su
                         recorrido <b>bottom-up</b> para ir construyendo el <b>Abstract Sintax Tree(AST)</b>. Luego se usa el
