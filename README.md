@@ -57,7 +57,19 @@ Hi my name is Leonardo , I’m a senior at University of Havana studying Compute
             </summary>
                   <hr>
                   <p style="margin-left: 40px">
-                        🚧Work in progress ...🚧
+                  El entorno del <b>simulador</b> consiste en una cuadrícula donde algunas casillas son obstáculos. Los <b>agentes</b> tienen características variables, como salud, daño, debilidad,rango de visión y velocidad(cantidad de turnos que necesita para avanzar una casilla). Para implementar el simulador <b>desacoplamos</b> el comportamiento del agente del comportamiento del entorno, de forma tal que el agente "interactue" con el "entorno" y el "entorno" se encargue de comprobar si la interacción es válida, realizar los cambios en el estado y retornar la información para la retroalimentación del agente. Este simulador lo utilizamos para probar las capacidades de una IA para agentes cooperativos que desarrollamos usando <b>IA clásica</b>.
+                  </p>
+                  <p style="margin-left: 40px">
+                  El problema de explorar el mapa es conocido como <b>Coverage Path Planning</b>. Para resolverlo utilizamos la descomposición de "<b>Boustrophedon</b>" del mapa y modelamos el problema como un <b>Travelling Salesman Problem(TSP)</b> en el grafo de las celdas adyacentes. Para encontrar una solución suficientemente buena utilizamos un <b>algorítmo genético</b> para TSP(Más info sobre la exploración <a href = "https://github.com/tonycp/IFSL/blob/main/Informe.md#explorar-el-territorio-en-busca-de-enemigos">aquí</a>)
+                  </p>
+                  <p style="margin-left: 40px">
+                  El movimiento cooperativo de los agentes presenta varios retos, como lograr que no se obstaculicen unos a otros y a la vez llegen en el menor tiempo posible. Para resolver este problema usamos una adaptación de <b>A*</b>, específicamente Windowed Hierachical Cooperative A* o <b>WHCA*</b>, el cuya idea central es darle un orden de prioridad a los agentes y solo planificar con más exactitud, tramos cortos(Más info sobre el movimiento cooperativo <a href = "https://github.com/tonycp/IFSL/blob/main/Informe.md#mover-a-las-unidades-a-sus-posiciones-en-la-formaci%C3%B3n-whca">aquí</a>)
+                  </p>
+                  <p style="margin-left: 40px">
+                  Los <b>agentes</b> usan el movimiento cooperativo para formarse en un lugar pero estos pueden ocupar distintas posiciones. Para asignar posiciones convenientes diseñamos una función para aproximar cuantas interrupciones iban a hacer que un agente se desviase de su ruta optima. Luego intentamos encontrar la asignación que hace esa métrica 0, modelandolo como un problema de <b>Satisfacción de Restricciones(CSP)</b> y en caso de que no exista intentamos encontrar una buena asignación usando con un algoritmo de <b>Busqueda Loal</b>, <b>Stocastic Hill Climbing</b>.(Más info sobre asignación <a href = "https://github.com/tonycp/IFSL/blob/main/Informe.md#csp">aquí</a>)
+                  </p>
+                  <p style="margin-left: 40px">
+                  Ya formados los <b>agentes</b> y encontrado el enemigo toca mover a la formación, alejándonos lo más posible de los obstáculos, para esto calculamos el <b>Diagrama de Voronoi</b> del mapa y nos movimos por los bordes de las celdas. Para el combate cooperativo generalmente se usa Aprendizaje Reforzado pero necesitabamos una solución con <b>IA clásica</b> por lo que usamos una adaptación de <b>MiniMax**(Más info sobre el combate cooperativo <a href = "https://github.com/tonycp/IFSL/blob/main/Informe.md#combate-entre-ej%C3%A9rcitos">aquí</a>)
                   </p>
       </details>
       <details style="margin-left: 40px">
@@ -103,16 +115,6 @@ Hi my name is Leonardo , I’m a senior at University of Havana studying Compute
                   <a href="https://github.com/Leo00010011/Distributed-Twitter/">Distributed Twitter: </a>Este es el
                   proyecto correspondiente a la asignatura de <b>Sistemas Distribuidos</b> en las que se nos pidió
                   realizar una implementación de una versión simplificada de Twitter con las que se debería poder:
-                  <ul>
-                        <li>Registrarse</li>
-                        <li>Iniciar Sesión</li>
-                        <li>Cerrar Sesión</li>
-                        <li>Publicar un Tweet</li>
-                        <li>Re-publicar un Tweet</li>
-                        <li>Seguir a otro usuario</li>
-                        <li>Ver el perfil de otro usuario</li>
-                        <li>Pedir nuevos Tweets</li>
-                  </ul>
             </summary>
             <hr>
             <p style="margin-left: 40px">
