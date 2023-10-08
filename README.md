@@ -1,13 +1,14 @@
 ### Hi there 👋
 
-Hi my name is Leonardo , I’m a senior at University of Havana studying Computer Science
+Hola, mí nombre es Leonardo y estoy a punto de graduarme de Licenciatura en Ciencias de la Computación en La Universidad de La Habana
 
-- I’ve experience working with Python, C# and C
+- Tengo experiencia trabajando con Python, C# and C.
 
-- I'm currently working in my thesis degree project about an automated system to measure Diabetic Foot Ulcers with intel
-  realsense cameras
+- Actualmente estoy trabajando en mi tesis de grado sobre medición de ulceras de pié diabético utilizando Visión por Computadora, Reconstrucción 3D y camaras RGBD intel realsense.
 
-- I'm eager to learn and gain experience in Computer Vision and 3D Reconstruction
+- Estoy interesado en aprender y ganar experiencia en el mundo de la Inteligencia Artificial, específicamente en la Visión por Computadora y la Reconstrucción 3D.
+
+- Me apasiona usar mis conocimientos para crear un mundo mejor.
 
 <details>
       <summary>
