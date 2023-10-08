@@ -66,10 +66,10 @@ Hi my name is Leonardo , I’m a senior at University of Havana studying Compute
                   El movimiento cooperativo de los agentes presenta varios retos, como lograr que no se obstaculicen unos a otros y a la vez llegen en el menor tiempo posible. Para resolver este problema usamos una adaptación de <b>A*</b>, específicamente Windowed Hierachical Cooperative A* o <b>WHCA*</b>, el cuya idea central es darle un orden de prioridad a los agentes y solo planificar con más exactitud, tramos cortos(Más info sobre el movimiento cooperativo <a href = "https://github.com/tonycp/IFSL/blob/main/Informe.md#mover-a-las-unidades-a-sus-posiciones-en-la-formaci%C3%B3n-whca">aquí</a>)
                   </p>
                   <p style="margin-left: 40px">
-                  Los <b>agentes</b> usan el movimiento cooperativo para formarse en un lugar pero estos pueden ocupar distintas posiciones. Para asignar posiciones convenientes diseñamos una función para aproximar cuantas interrupciones iban a hacer que un agente se desviase de su ruta optima. Luego intentamos encontrar la asignación que hace esa métrica 0, modelandolo como un problema de <b>Satisfacción de Restricciones(CSP)</b> y en caso de que no exista intentamos encontrar una buena asignación usando con un algoritmo de <b>Busqueda Loal</b>, <b>Stocastic Hill Climbing</b>.(Más info sobre asignación <a href = "https://github.com/tonycp/IFSL/blob/main/Informe.md#csp">aquí</a>)
+                  Los <b>agentes</b> usan el movimiento cooperativo para formarse en un lugar pero estos pueden ocupar distintas posiciones. Para asignar posiciones convenientes diseñamos una función para aproximar cuantas interrupciones iban a hacer que un agente se desviase de su ruta optima. Luego intentamos encontrar la asignación que hace esa métrica 0, modelandolo como un problema de <b>Satisfacción de Restricciones(CSP)</b> y en caso de que no exista intentamos encontrar una buena asignación usando con un algoritmo de <b>Busqueda Local</b>, <b>Stocastic Hill Climbing</b>.(Más info sobre asignación <a href = "https://github.com/tonycp/IFSL/blob/main/Informe.md#asignaci%C3%B3n-de-posiciones-en-las-formaciones">aquí</a>)
                   </p>
                   <p style="margin-left: 40px">
-                  Ya formados los <b>agentes</b> y encontrado el enemigo toca mover a la formación, alejándonos lo más posible de los obstáculos, para esto calculamos el <b>Diagrama de Voronoi</b> del mapa y nos movimos por los bordes de las celdas. Para el combate cooperativo generalmente se usa Aprendizaje Reforzado pero necesitabamos una solución con <b>IA clásica</b> por lo que usamos una adaptación de <b>MiniMax**(Más info sobre el combate cooperativo <a href = "https://github.com/tonycp/IFSL/blob/main/Informe.md#combate-entre-ej%C3%A9rcitos">aquí</a>)
+                  Ya formados los <b>agentes</b> y encontrado el enemigo toca mover a la formación, alejándonos lo más posible de los obstáculos, para esto calculamos el <b>Diagrama de Voronoi</b> del mapa y nos movimos por los bordes de las celdas. Para el combate cooperativo generalmente se usa Aprendizaje Reforzado pero necesitabamos una solución con <b>IA clásica</b> por lo que usamos una adaptación de <b>MiniMax</b>(Más info sobre el combate cooperativo <a href = "https://github.com/tonycp/IFSL/blob/main/Informe.md#combate-entre-ej%C3%A9rcitos">aquí</a>)
                   </p>
       </details>
       <details style="margin-left: 40px">
@@ -146,7 +146,7 @@ Hi my name is Leonardo , I’m a senior at University of Havana studying Compute
       </details>
       <details style="margin-left: 40px">
             <summary>
-                  <b>DAA Solutions:</b> 📖 En estos repos están las soluciones y los respectivos análisis de un conjunto
+                  <a>DAA Solutions:</a> 📖 En estos repos están las soluciones y los respectivos análisis de un conjunto
                   de problemas que formaban parte del sistema de evaluación de la asignatura <b>Diseño y Análisis de
                         Algoritmos</b>
             </summary>
