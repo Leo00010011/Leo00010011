@@ -19,7 +19,7 @@ Hi my name is Leonardo , I’m a senior at University of Havana studying Compute
             </summary>
                   <hr>
                   <p style="margin-left: 40px">
-                        🚧Work in progress ...🚧
+                        🚧Writting in progress ...🚧
                   </p>
       </details>
       <details style="margin-left: 40px">
@@ -28,7 +28,7 @@ Hi my name is Leonardo , I’m a senior at University of Havana studying Compute
             </summary>
                   <hr>
                   <p style="margin-left: 40px">
-                        🚧Work in progress ...🚧
+                        🚧Writting in progress ...🚧
                   </p>
       </details>
       <details style="margin-left: 40px">
@@ -37,7 +37,7 @@ Hi my name is Leonardo , I’m a senior at University of Havana studying Compute
             </summary>
                   <hr>
                   <p style="margin-left: 40px">
-                        🚧Work in progress ...🚧
+                        🚧Writting in progress ...🚧
                   </p>
       </details>
       <details style="margin-left: 40px">
@@ -47,7 +47,7 @@ Hi my name is Leonardo , I’m a senior at University of Havana studying Compute
             </summary>
                   <hr>
                   <p style="margin-left: 40px">
-                        🚧Work in progress ...🚧
+                        🚧Writting in progress ...🚧
                   </p>
       </details>
       <details style="margin-left: 40px">
