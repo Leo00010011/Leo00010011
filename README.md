@@ -16,11 +16,26 @@ Hola, mí nombre es Leonardo y estoy a punto de graduarme de Licenciatura en Cie
       </summary>
       <details style="margin-left: 40px">
             <summary>
-                  <a href="asdas">Shell: </a>Este es un proyecto de la asignatura <b>Sistemas Operativos</b> donde tuvimos que implementar un <b>Shell</b> para <b>Linux</b>, bastante completo, usando <b>C</b>.
+                  <a href="https://github.com/Leo00010011/my_shell">Shell: </a>Este es un proyecto de la asignatura <b>Sistemas Operativos</b> donde tuvimos que implementar un <b>Shell</b> para <b>Linux</b>, bastante completo, usando <b>C</b>.
             </summary>
                   <hr>
                   <p style="margin-left: 40px">
-                        🚧Writting in progress ...🚧
+                        Nuestro Shell teniene funcionalidades como <b>multi-pipe</b>, <b>redirección de entrada y de salida</b>, concatenación de comandos, posibilidad de poner procesos en <b>background</b> y <b>foreground</b> y un historial de comandos.
+                  </p>
+                  <p style="margin-left: 40px">
+                        Para interpretar el comando de entrada se parsea y se almacena en una estructura de datos. Los <b>pipes</b> y las <b>redirecciones de entrada y salida</b> las implementamos trabajando con la <b>tabla de file descriptors</b> y los métodos <b>dup2</b> y <b>pipe</b>.
+                  </p>
+                  <p style="margin-left: 40px">
+                        Los comandos se ejecutan usando nuevos procesos usando los métodos <b>fork</b> y <b>execv</b>. Hicimos un <b>handler</b> para <b>SIGCHLD</b> para <b>cosechar</b> los procesos terminados, mientras en el proceso raíz se queda ejecutando el shell. 
+                  </p>
+                  <p style="margin-left: 40px">
+                        Para implementar los <b>jobs</b> y el <b>foreground</b> se utilizó una <b>pila</b> para almacenar los procesos en <b>background</b> y la cual se mantiene actualizada con el <b>handler</b> de <b>SIGCHLD</b> y el método <b>waitpid</b> con el flag <b>WNOHANG</b>. La funcionalidad de enviar un método al <b>foreground</b> se implementó llamando <b>waitpid</b> con <b>pid</b> <b>-1</b>, de forma tal que se iban <b>cosechando</b> procesos hasta que se cosechase el proceso que fue enviado al <b>foreground</b>
+                  </p>
+                  <p style="margin-left: 40px">
+                        El <b>historial</b> se implementó guardando en un archivo la información de los comandos que se iban ejecutando. El formato que diseñamos para esto consiste en siempre el tamaño antes y después los datos es decir <b>{size}{value}{size}{value}</b> donde size siempre es un <b>unsigned int</b> indicando el tamaño que ocupa su value correspondiente de forma que se puede leer el archivo facilmente.
+                  </p>
+                  <p style="margin-left: 40px">
+                        Más detalles de la implementación en el <b>readme</b> del proyecto
                   </p>
       </details>
       <details style="margin-left: 40px">
