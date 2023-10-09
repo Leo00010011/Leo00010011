@@ -8,7 +8,7 @@ Hola, mí nombre es Leonardo y estoy a punto de graduarme de Licenciatura en Cie
 
 - Estoy interesado en aprender y ganar experiencia en el mundo de la Inteligencia Artificial, específicamente en la Visión por Computadora y la Reconstrucción 3D.
 
-- Me apasiona usar mis conocimientos para crear un mundo mejor.
+- Me apasiona usar mis conocimientos para ayudar crear un mundo mejor.
 
 <details>
       <summary>
