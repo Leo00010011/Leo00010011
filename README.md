@@ -17,6 +17,8 @@ Hola, mí nombre es Leonardo y estoy a punto de graduarme de Licenciatura en Cie
       <details style="margin-left: 40px">
             <summary>
                   <a href="https://github.com/Leo00010011/my_shell">Shell: </a>Este es un proyecto de la asignatura <b>Sistemas Operativos</b> donde tuvimos que implementar un <b>Shell</b> para <b>Linux</b>, bastante completo, usando <b>C</b>.
+                  <div>
+                        <img alt="Static Badge" src="https://img.shields.io/badge/C-grey?logo=C&labelColor=white"><img alt="Static Badge" src="https://img.shields.io/badge/linux-grey?logo=linux&logoColor=black&labelColor=white"><img alt="Static Badge" src="https://img.shields.io/badge/bash-grey?logo=gnubash&logoColor=black&labelColor=white">
             </summary>
                   <hr>
                   <p style="margin-left: 40px">
@@ -41,6 +43,8 @@ Hola, mí nombre es Leonardo y estoy a punto de graduarme de Licenciatura en Cie
       <details style="margin-left: 40px">
             <summary>
                   <a href="https://github.com/Leo00010011/WebServer-FTP">Web Server:</a> Este es un proyecto de la asignatura de <b>Sistemas Operativos</b>, en el que tuvimos que diseñar e implementar un <b>Servidor FTP</b> solo usando <b>C</b> y funcionalidades del <b>kernel de linux</b>.
+                  <div>
+                  <img alt="Static Badge" src="https://img.shields.io/badge/C-grey?logo=C&labelColor=white"><img alt="Static Badge" src="https://img.shields.io/badge/linux-grey?logo=linux&logoColor=black&labelColor=white"><img alt="Static Badge" src="https://img.shields.io/badge/networking-grey"><img alt="Static Badge" src="https://img.shields.io/badge/http-grey">
             </summary>
                   <hr>
                   <p style="margin-left: 40px">
@@ -58,7 +62,10 @@ Hola, mí nombre es Leonardo y estoy a punto de graduarme de Licenciatura en Cie
       </details>  
       <details style="margin-left: 40px">
             <summary>
-                  <a href="Por Subir">Skyrim: </a> este es el proyecto correspondiente a la asignatura de <b>Ingeniería de Software</b> en el que tuvimos que diseñar una <b>base de datos</b> y una <b>pagina web</b> con la que se puedan recolectar datos de batallas ficticias en el juego y mostrar de manera atractiva varios insights a partir de los datos.
+                  <a href="Por Subir">Skyrim: </a>
+ este es el proyecto correspondiente a la asignatura de <b>Ingeniería de Software</b> en el que tuvimos que diseñar una <b>base de datos</b> y una <b>pagina web</b> con la que se puedan recolectar datos de batallas ficticias en el juego y mostrar de manera atractiva varios insights a partir de los datos.
+                  <div>
+            <img alt="Static Badge" src="https://img.shields.io/badge/python-grey?logo=python&labelColor=white"><img alt="Static Badge" src="https://img.shields.io/badge/django-grey?logo=django&logoColor=black&labelColor=white">
             </summary>
                   <hr>
                   <p style="margin-left: 40px">
@@ -69,6 +76,8 @@ Hola, mí nombre es Leonardo y estoy a punto de graduarme de Licenciatura en Cie
             <summary>
                   <a href="https://github.com/Leo00010011/3Models-SRI">3Models-SRI:</a>Este es el proyecto correspondiente a la asignatura
                   de <b>Sistemas de Recuperación de Información</b> donde tuvimos que estudiar e implementar dos <b>modelos de recuperación de información</b> que permitieran recomendar documentos de una colección a partir de una <b>Query</b>
+                  <div>
+                        <img alt="Static Badge" src="https://img.shields.io/badge/C%23-grey?logo=csharp&logoColor=black&labelColor=white">
             </summary>
                   <hr>
                   <p style="margin-left: 40px">
@@ -77,8 +86,11 @@ Hola, mí nombre es Leonardo y estoy a punto de graduarme de Licenciatura en Cie
       </details>
       <details style="margin-left: 40px">
             <summary>
-                  <a href="https://github.com/tonycp/IFSL">IFSL:</a>Este es el proyecto correspondiente a la asignatura
+                  <a href="https://github.com/tonycp/IFSL">IFSL:</a>
+Este es el proyecto correspondiente a la asignatura
                   de <b>Inteligencia Artificial</b>. Utilizamos <b>Inteligencia Artificial Clásica</b> para desarrollar un simulador de batallas en el que un conjunto de <b>agentes</b> trabajaban en <b>cooperativo</b> para derrotar un enemigo.
+                  <div>
+            <img alt="Static Badge" src="https://img.shields.io/badge/python-grey?logo=python&labelColor=white">
             </summary>
                   <hr>
                   <p style="margin-left: 40px">
@@ -99,8 +111,11 @@ Hola, mí nombre es Leonardo y estoy a punto de graduarme de Licenciatura en Cie
       </details>
       <details style="margin-left: 40px">
             <summary>
-                  <a href="https://github.com/Alejandra1113/FormationDSL/">FormationDSL: </a> Este es el proyecto
+                  <a href="https://github.com/Alejandra1113/FormationDSL/">FormationDSL: </a>
+ Este es el proyecto
                   correspondiente a la asignatura de <b>Compilación</b> en el que se diseñamos un <b>Domain Specific Language(DSL)</b> e implementamos un <b>transpilador</b> de ese lenguaje a <b>Python</b>.
+                  <div>
+                  <img alt="Static Badge" src="https://img.shields.io/badge/python-grey?logo=python&labelColor=white"><img alt="Static Badge" src="https://img.shields.io/badge/compilers-grey">
             </summary>
                   <hr>
                   <p style="margin-left: 40px">
@@ -134,9 +149,12 @@ Hola, mí nombre es Leonardo y estoy a punto de graduarme de Licenciatura en Cie
       </details>
       <details style="margin-left: 40px">
             <summary>
-                  <a href="https://github.com/Leo00010011/Distributed-Twitter/">Distributed Twitter: </a>Este es el
+                  <a href="https://github.com/Leo00010011/Distributed-Twitter/">Distributed Twitter: </a>
+                  Este es el
                   proyecto correspondiente a la asignatura de <b>Sistemas Distribuidos</b> en las que se nos pidió
                   realizar una implementación de una versión simplificada de Twitter con las que se debería poder:
+                  <div>
+                        <img alt="Static Badge" src="https://img.shields.io/badge/python-grey?logo=python&labelColor=white"><img alt="Static Badge" src="https://img.shields.io/badge/docker-grey?logo=docker&logoColor=black&labelColor=white"><img alt="Static Badge" src="https://img.shields.io/badge/networking-grey">
             </summary>
             <hr>
             <p style="margin-left: 40px">
@@ -168,9 +186,12 @@ Hola, mí nombre es Leonardo y estoy a punto de graduarme de Licenciatura en Cie
       </details>
       <details style="margin-left: 40px">
             <summary>
-                  <a>DAA Solutions:</a> 📖 En estos repos están las soluciones y los respectivos análisis de un conjunto
+                  <a>DAA Solutions:</a> 📖 
+En estos repos están las soluciones y los respectivos análisis de un conjunto
                   de problemas que formaban parte del sistema de evaluación de la asignatura <b>Diseño y Análisis de
                         Algoritmos</b>
+                  <div>
+                        <img alt="Static Badge" src="https://img.shields.io/badge/python-grey?logo=python&labelColor=white">
             </summary>
             <hr>
             <ul>
