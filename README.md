@@ -1,4 +1,4 @@
-### Hi there 👋
+# Hi there 👋
 
 Hola, mí nombre es Leonardo y estoy a punto de graduarme de Licenciatura en Ciencias de la Computación en La Universidad de La Habana
 
@@ -10,10 +10,10 @@ Hola, mí nombre es Leonardo y estoy a punto de graduarme de Licenciatura en Cie
 
 - Me apasiona usar mis conocimientos para ayudar crear un mundo mejor.
 
-<details>
-      <summary>
-            Acerca de mis proyectos:
-      </summary>
+
+<a href = "https://github.com/Leo00010011/Leo00010011/blob/main/CV%20Leonardo%20Ulloa%20Ferrer.pdf"> ➡️ Entra aquí para ver mi curriculum </a>
+
+<h3>Acerca de mis proyectos:</h3>
       <details style="margin-left: 40px">
             <summary>
                   <a href="https://github.com/Leo00010011/my_shell">Shell: </a>Este es un proyecto de la asignatura <b>Sistemas Operativos</b> donde tuvimos que implementar un <b>Shell</b> para <b>Linux</b>, bastante completo, usando <b>C</b>.
