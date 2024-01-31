@@ -1,10 +1,10 @@
 # Hi there 👋
 
-Hola, mí nombre es Leonardo y estoy a punto de graduarme de Licenciatura en Ciencias de la Computación en La Universidad de La Habana
+Hola, mí nombre es Leonardo y soy Científico de la Computación
 
 - Tengo experiencia trabajando con Python, C# and C.
 
-- Actualmente estoy trabajando en mi tesis de grado sobre medición de ulceras de pié diabético utilizando Visión por Computadora, Reconstrucción 3D y camaras RGBD intel realsense.
+- Realicé mi tesis de grado sobre medición de ulceras de pié diabético utilizando Visión por Computadora, Reconstrucción 3D y camaras RGBD intel realsense.
 
 - Estoy interesado en aprender y ganar experiencia en el mundo de la Inteligencia Artificial, específicamente en la Visión por Computadora y la Reconstrucción 3D.
 
