@@ -10,8 +10,10 @@ Hola, mí nombre es Leonardo y soy Científico de la Computación
 
 - Me apasiona usar mis conocimientos para ayudar crear un mundo mejor.
 
+<a href = "https://github.com/Leo00010011/Leo00010011/blob/main/CV%20Leonardo%20Ulloa%20Ferrer%20(Es).pdf"> ➡️ Entra aquí para ver mi curriculum en español</a>
 
-<a href = "https://github.com/Leo00010011/Leo00010011/blob/main/CV%20Leonardo%20Ulloa%20Ferrer.pdf"> ➡️ Entra aquí para ver mi curriculum </a>
+<a href = "https://github.com/Leo00010011/Leo00010011/blob/main/CV%20Leonardo%20Ulloa%20Ferrer%20(En).pdf"> ➡️ Enter here to look my cv in english </a>
+
 
 <h3>Acerca de mis proyectos:</h3>
       <details style="margin-left: 40px">
